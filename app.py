@@ -4,7 +4,7 @@ from sqlalchemy import create_engine, text
 import google.generativeai as genai
 
 # Configure your Gemini API key
-genai.configure(api_key="AIzaSyBh-gQTCd4NrtSeO534KM8FznaMdDwXI94")  # ⬅️ Use your actual Gemini API key
+genai.configure(api_key="⬅️ Use your actual Gemini API key")
 
 app = FastAPI()
 
